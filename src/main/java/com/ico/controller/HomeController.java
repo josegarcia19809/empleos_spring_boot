@@ -1,5 +1,6 @@
 package com.ico.controller;
 
+import com.ico.model.Vacante;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -38,5 +39,16 @@ public class HomeController {
         model.addAttribute("empleos", empleos);
 
         return "listado";
+    }
+
+    @GetMapping("/detalle")
+    public String mostrarDetalle(Model model) {
+        Vacante vacante = new Vacante();
+        vacante.setNombre("Ingeniero de comunicaciones");
+        vacante.setDescripcion("Se solicita ingeniero para dar soporte a intranet");
+        vacante.setFecha(new Date());
+        vacante.setSalario(9700.00);
+        model.addAttribute("vacante", vacante);
+        return "detalle";
     }
 }
