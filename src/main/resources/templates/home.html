@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Página Principal</title>
 </head>
 <body>
-<h1>Bienvenidos a Empleos App</h1>
+<h1 th:text="${mensaje}">Bienvenidos</h1>
+<h2>Hoy es [[${fecha}]]</h2>
 </body>
 </html>
