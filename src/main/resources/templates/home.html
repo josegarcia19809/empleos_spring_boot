@@ -6,6 +6,10 @@
 </head>
 <body>
 <h1 th:text="${mensaje}">Bienvenidos</h1>
-<h2>Hoy es [[${fecha}]]</h2>
+<p>Hoy es [[${fecha}]]</p>
+<h3 th:text="'Puesto: ' + ${puesto}"></h3>
+<h3 th:text="'Fecha Publicación: ' + ${fecha}"></h3>
+<h3 th:text="'Salario ofrecido: ' + ${salario}"></h3>
+<h3 th:text="'Vigente: ' + ${vigente}"></h3>
 </body>
 </html>
