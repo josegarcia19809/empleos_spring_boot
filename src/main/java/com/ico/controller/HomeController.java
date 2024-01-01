@@ -29,7 +29,7 @@ public class HomeController {
 
     @GetMapping("/listado")
     public String mostrarListado(Model model) {
-        List<String> empleos=new LinkedList<>();
+        List<String> empleos = new LinkedList<>();
         empleos.add("Ingeniero de sistemas");
         empleos.add("Auxiliar de contabilidad");
         empleos.add("Vendedor");
