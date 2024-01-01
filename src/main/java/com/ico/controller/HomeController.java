@@ -5,6 +5,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
 @Controller
 public class HomeController {
@@ -23,5 +25,18 @@ public class HomeController {
         model.addAttribute("salario", salario);
         model.addAttribute("vigente", vigente);
         return "home";
+    }
+
+    @GetMapping("/listado")
+    public String mostrarListado(Model model) {
+        List<String> empleos=new LinkedList<>();
+        empleos.add("Ingeniero de sistemas");
+        empleos.add("Auxiliar de contabilidad");
+        empleos.add("Vendedor");
+        empleos.add("Arquitecto");
+
+        model.addAttribute("empleos", empleos);
+
+        return "listado";
     }
 }
