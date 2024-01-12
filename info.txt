@@ -1,7 +1,3 @@
-Anotación @RequestParam - Ejemplo Petición HTTP GET
-Anotación @RequestParam - Ejemplo Petición HTTP POST
-
-
 Clase de Servicio VacantesServiceImpl
 07:14
 Anotación @Autowired - Explicación
