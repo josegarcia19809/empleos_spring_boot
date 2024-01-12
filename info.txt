@@ -1,3 +1,5 @@
+Inyección de dependencias:
+
 Clase de Servicio VacantesServiceImpl
 07:14
 Anotación @Autowired - Explicación
