@@ -1,7 +1,7 @@
-Fragments y Layouts: Integrar el diseño de la página principal dinámicamente
+Fragments y Layouts: Integrar el diseño para ver los detalles de una Vacante.
 
 
-Integrar el diseño para ver los detalles de una Vacante.
+
 10:03
 Integrar el diseño del formulario HTML para crear una categoría
 05:36
