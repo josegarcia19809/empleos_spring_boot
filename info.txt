@@ -1,20 +1,6 @@
-Inyección de dependencias:
+Fragments y Layouts: Integrar el diseño de la página principal dinámicamente
 
-Clase de Servicio VacantesServiceImpl
-07:14
-Anotación @Autowired - Explicación
-04:36
-Anotación @Autowired - Ejemplo de Inyección de Dependencias en un controlador
-04:37
-Implementar método buscarPorId en la clase de servicio.
-08:41
 
-Explicación de la plantilla HTML del proyecto de EmpleosApp
-06:11
-Integrar el diseño de la página principal dinámicamente (Parte 1)
-07:22
-Integrar el diseño de la página principal dinámicamente (Parte 2)
-07:08
 Integrar el diseño para ver los detalles de una Vacante.
 10:03
 Integrar el diseño del formulario HTML para crear una categoría
