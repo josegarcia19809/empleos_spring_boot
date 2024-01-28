@@ -25,6 +25,12 @@ public class HomeController {
         return "home";
     }
 
+    @GetMapping("/home2")
+    public String mostrarHome2(Model model) {
+        model.addAttribute("title", "Página de Inicio");
+        return "home2";
+    }
+
     @GetMapping("/listado")
     public String mostrarListado(Model model) {
         List<String> empleos = new LinkedList<>();

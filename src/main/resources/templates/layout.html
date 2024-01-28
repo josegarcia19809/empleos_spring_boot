@@ -1,0 +1,29 @@
+<!-- src/main/resources/templates/layout.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="content">
+    <title>EmpleosApp | Aplicación para publicar Ofertas de Trabajo.</title>
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link th:href="@{/bootstrap/css/jumbotron.css}" rel="stylesheet">
+    <link th:href="@{/bootstrap/css/sticky-footer-navbar.css}" rel="stylesheet">
+    <title th:text="${title}">Título predeterminado</title>
+    <!-- Otros elementos head comunes -->
+</head>
+<body>
+<header>
+    <h1>Encabezado común</h1>
+    <!-- Otros elementos del encabezado común -->
+</header>
+
+
+<div th:fragment="content">Hola</div>
+<!--<div th:replace="~{fragments/content :: content}"></div>-->
+
+<footer>
+    <p>Pie de página común</p>
+    <!-- Otros elementos del pie de página común -->
+</footer>
+</body>
+</html>
